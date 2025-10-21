@@ -8,7 +8,7 @@ namespace Tyuiu.GamaleevaYuA.Sprint3.Task0.V7.Lib
             double s = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                s += (Math.Pow(value, i)) * Math.Cos(i);
+                s += (Math.Pow(value, i) + 1) * Math.Cos(i);
             }
             return Math.Round(s, 3);
         }
