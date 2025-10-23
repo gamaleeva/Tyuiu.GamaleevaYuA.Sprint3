@@ -11,7 +11,7 @@ namespace Tyuiu.GamaleevaYuA.Sprint3.Task2.V8.Lib
                 result = result * (1 / Math.Pow((Math.Cos(5) + 1), 2));
                 startValue++;
             } while (startValue <= stopValue);
-            return Math.Round(result);
+            return Math.Round(result, 3);
             
         }
     }
